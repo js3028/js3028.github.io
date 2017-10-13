@@ -2,9 +2,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
     min-height: 100vh;
-    background: #fefefe;
-    background-size: cover;
+    border: 40px #F8F8F8 solid;
+    background: linear-gradient(to right, #FF5851 50%, #F8F8F8 50%);
     margin: 0;
     font-family: sans-serif;
 }
@@ -31,7 +32,7 @@ video {
 
 .speed-bar {
     width: 100%;
-    background: linear-gradient(-170deg, #2376ae 0%, #c16ecf 100%);
+    background: #FF5851;
     text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
     display: flex;
     align-items: center;
